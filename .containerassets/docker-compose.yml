@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   web:
-    image: robazza/cfpm:0.1
+    image: robazza/painel_cfpm:0.1
     env_file:
         - .env
     ports:
